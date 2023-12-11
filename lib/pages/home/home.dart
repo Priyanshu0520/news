@@ -1,15 +1,19 @@
+// ignore_for_file: unnecessary_import, avoid_print, avoid_unnecessary_containers
+
 import 'dart:convert';
 import 'dart:ui'; 
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
 import 'package:news/pages/home/model.dart';
 import 'package:news/pages/news category/category.dart';
-//import 'package:flutter/src/foundation/annotations.dart ';
+
 import 'package:http/http.dart';
-import 'package:news/pages/news%20view/newsview.dart';
+
 
 
 class Home extends StatefulWidget {
+  const Home({super.key});
+
 
   @override
   State<Home> createState() => _HomeState();
@@ -17,7 +21,7 @@ class Home extends StatefulWidget {
 
 
 class _HomeState extends State<Home> {
-  TextEditingController searchController = new TextEditingController();
+  TextEditingController searchController = TextEditingController();
   List<NewsQueryModel> newsModelList = <NewsQueryModel>[];
   List<NewsQueryModel> newsModelListCarousel = <NewsQueryModel>[];
   List<String> navBarItem = ["Top News", "Politics","Business","Technology","Sports" ,"Entertainment" , "Health"];
@@ -32,7 +36,7 @@ class _HomeState extends State<Home> {
     Map data = jsonDecode(response.body);
     setState(() {
       data["articles"].forEach((element) {
-        NewsQueryModel newsQueryModel = new NewsQueryModel();
+        NewsQueryModel newsQueryModel =  NewsQueryModel();
         newsQueryModel = NewsQueryModel.fromMap(element);
         newsModelList.add(newsQueryModel);
         setState(() {
@@ -50,7 +54,7 @@ class _HomeState extends State<Home> {
     Map data = jsonDecode(response.body);
     setState(() {
       data["articles"].forEach((element) {
-        NewsQueryModel newsQueryModel = new NewsQueryModel();
+        NewsQueryModel newsQueryModel =  NewsQueryModel();
         newsQueryModel = NewsQueryModel.fromMap(element);
         newsModelListCarousel.add(newsQueryModel);
         setState(() {
@@ -112,7 +116,7 @@ class _HomeState extends State<Home> {
              )
              ),
             
-          body: Container(
+          body: SizedBox(
             height: 1000,
             child: SingleChildScrollView(
               
@@ -122,11 +126,11 @@ class _HomeState extends State<Home> {
               Container(
                 height: 40,
                 
-                margin: EdgeInsets.symmetric(horizontal: 28, vertical: 12),
+                margin: const EdgeInsets.symmetric(horizontal: 28, vertical: 12),
                
-                padding: EdgeInsets.symmetric(horizontal: 5),
+                padding: const EdgeInsets.symmetric(horizontal: 5),
                 decoration: BoxDecoration(
-                  color: Color.fromARGB(255, 224, 225, 222),
+                  color: const Color.fromARGB(255, 224, 225, 222),
                   borderRadius: BorderRadius.circular(55)
                   
                 ),
@@ -142,8 +146,8 @@ class _HomeState extends State<Home> {
                   },
                 
                        child: Container(
-                        margin: EdgeInsets.only(right: 20 , left: 10),
-                        child: Icon(Icons.search , color: Colors.blue),
+                        margin: const EdgeInsets.only(right: 20 , left: 10),
+                        child: const Icon(Icons.search , color: Colors.blue),
                         ),
                     ),
                     
@@ -160,7 +164,7 @@ class _HomeState extends State<Home> {
                            Navigator.push(
                             context, MaterialPageRoute(builder: (context)=> Categoryy( Query :value))); }
                             },
-                        decoration: InputDecoration(
+                        decoration: const InputDecoration(
                           
                           border: InputBorder.none,
                           
@@ -172,7 +176,7 @@ class _HomeState extends State<Home> {
                 ),
                 
               ),
-              Container(
+              SizedBox(
             height: 33,
             child: ListView.builder(
               shrinkWrap: true,
@@ -186,17 +190,17 @@ class _HomeState extends State<Home> {
                       (context)=> Categoryy(Query: navBarItem[index])));
                   },
                   child: Container(
-                    padding: EdgeInsets.symmetric(horizontal: 20 , vertical : 10),
-                    margin: EdgeInsets.symmetric(horizontal : 2),
+                    padding: const EdgeInsets.symmetric(horizontal: 20 , vertical : 10),
+                    margin: const EdgeInsets.symmetric(horizontal : 2),
                     decoration : BoxDecoration(
-                      color: Color.fromARGB(255, 54, 255, 228),
+                      color: const Color.fromARGB(255, 54, 255, 228),
                       borderRadius : BorderRadius.circular(15)
                     ),
 
                     child : Center(
                       child: Text(
                           navBarItem[index] ,
-                      style: TextStyle(
+                      style: const TextStyle(
                         fontSize:12 ,
                         color: Colors.black,
                         fontWeight:FontWeight.bold
@@ -210,17 +214,17 @@ class _HomeState extends State<Home> {
               
               
               
-              SizedBox(
+              const SizedBox(
                 height: 12
                 
               ),
                Container(
-               child: Row(
+               child: const Row(
                       mainAxisAlignment: MainAxisAlignment.start,
                       children: [
 
                         Padding(
-                          padding: const EdgeInsets.only(left:8),
+                          padding: EdgeInsets.only(left:8),
                           child: Text("World News " , style: TextStyle(fontWeight: FontWeight.w700 , fontSize: 26
                           ),),
                         ),
@@ -229,8 +233,8 @@ class _HomeState extends State<Home> {
                   ),
 
 
-               isLoading ? Center(
-                 child: Container(height :35,
+               isLoading ? const Center(
+                 child: SizedBox(height :35,
                   child: CircularProgressIndicator()),
                ): CarouselSlider(
                 
@@ -247,7 +251,7 @@ class _HomeState extends State<Home> {
                     builder: (BuildContext context){
                       return Container(
                         
-                        margin: EdgeInsets.symmetric(vertical: 0),
+                        margin: const EdgeInsets.symmetric(vertical: 0),
                         child: InkWell(
                           onTap: () {
                            // Navigator.push(context, MaterialPageRoute(builder: (context)=> NewsView(instance.newsUrl)));
@@ -268,10 +272,10 @@ class _HomeState extends State<Home> {
                                   
                                   child: Column(
                                     crossAxisAlignment: CrossAxisAlignment.start,
-                                    children: [Text("" ,style: TextStyle(
+                                    children: [const Text("" ,style: TextStyle(
                                       color: Colors.white , fontWeight: FontWeight.bold,fontSize: 17
                                     ),),
-                                     Text(instance.newsHead ,style: TextStyle(
+                                     Text(instance.newsHead ,style: const TextStyle(
                                       color: Colors.white , fontWeight: FontWeight.bold
                                     ),   )],
                                   ),
@@ -287,15 +291,15 @@ class _HomeState extends State<Home> {
                 }).toList(),
                
               ),
-              SizedBox(
+              const SizedBox(
                 height: 10,
               ),
               Container(
               child: Column(
                 children: [
                   Container(
-                    margin : EdgeInsets.fromLTRB(15, 25, 0, 0),
-                    child: Row(
+                    margin : const EdgeInsets.fromLTRB(15, 25, 0, 0),
+                    child: const Row(
                       mainAxisAlignment: MainAxisAlignment.start,
                       children: [
 
@@ -305,15 +309,15 @@ class _HomeState extends State<Home> {
                     ),
                   ),
 
-                  isLoading? Center(child: Container(child: CircularProgressIndicator())):
+                  isLoading? Center(child: Container(child: const CircularProgressIndicator())):
                   ListView.builder(
-                      physics: NeverScrollableScrollPhysics(),
+                      physics: const NeverScrollableScrollPhysics(),
                       shrinkWrap: true,
                       itemCount: newsModelList.length,
                       itemBuilder: (context, index) {
                         return Container(
                          
-                          margin: EdgeInsets.symmetric(horizontal: 10, vertical: 5),
+                          margin: const EdgeInsets.symmetric(horizontal: 10, vertical: 5),
                           child: Card(
                             
                               shape: RoundedRectangleBorder(
@@ -342,19 +346,19 @@ class _HomeState extends State<Home> {
                                             end: Alignment.bottomCenter
                                           )
                                         ),
-                                        padding: EdgeInsets.fromLTRB(15, 15, 10, 8),
+                                        padding: const EdgeInsets.fromLTRB(15, 15, 10, 8),
                                           child: Column(
                                             crossAxisAlignment: CrossAxisAlignment.start,
                                             children: [
                                               Text(
                                                 newsModelList[index].newsHead,
                                                 
-                                                style: TextStyle(
+                                                style: const TextStyle(
                                                     color: Colors.white,
                                                     fontSize: 18,
                                                     fontWeight: FontWeight.bold),
                                               ),
-                                              Text(newsModelList[index].newsDes.length >50 ? "${newsModelList[index].newsDes.substring(0,50)}..." : newsModelList[index].newsDes ,  style: TextStyle(color: Colors.white , fontSize: 12)
+                                              Text(newsModelList[index].newsDes.length >50 ? "${newsModelList[index].newsDes.substring(0,50)}..." : newsModelList[index].newsDes ,  style: const TextStyle(color: Colors.white , fontSize: 12)
                                                 ,)
                                             ],
                                           )))
@@ -364,11 +368,11 @@ class _HomeState extends State<Home> {
                       }),
              
               Container(
-                padding: EdgeInsets.fromLTRB(0,10,0,5),
+                padding: const EdgeInsets.fromLTRB(0,10,0,5),
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
-                    ElevatedButton(onPressed: (){}, child: Text("SHOW MORE")),
+                    ElevatedButton(onPressed: (){}, child: const Text("SHOW MORE")),
                   ],
                     ),
                   )

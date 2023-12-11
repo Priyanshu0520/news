@@ -1,3 +1,5 @@
+// ignore_for_file: must_be_immutable, non_constant_identifier_names
+
 import 'dart:convert';
 
 import 'package:flutter/material.dart';
@@ -10,7 +12,7 @@ class Categoryy extends StatefulWidget {
 
 
 String Query;
-Categoryy({ required this.Query});
+Categoryy({super.key,  required this.Query});
   @override
   State<Categoryy> createState() => _CategoryState();
 }
@@ -45,7 +47,7 @@ class _CategoryState extends State<Categoryy> {
     Map data = jsonDecode(response.body);
     setState(() {
       data["articles"].forEach((element) {
-        NewsQueryModel newsQueryModel = new NewsQueryModel();
+        NewsQueryModel newsQueryModel = NewsQueryModel();
         newsQueryModel = NewsQueryModel.fromMap(element);
         newsModelList.add(newsQueryModel);
         setState(() {
@@ -66,34 +68,34 @@ class _CategoryState extends State<Categoryy> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Color.fromARGB(255, 54, 255, 228),
-        title: Text('Categorized News'),
+        backgroundColor: const Color.fromARGB(255, 54, 255, 228),
+        title: const Text('Categorized News'),
         centerTitle: true,
       ),
       body: SingleChildScrollView(
               child: Column(
                 children: [
                   Container(
-                    margin : EdgeInsets.fromLTRB(15, 25, 0, 0),
+                    margin : const EdgeInsets.fromLTRB(15, 25, 0, 0),
                     child: Row(
                       mainAxisAlignment: MainAxisAlignment.start,
                       children: [
 
-                        Text(widget.Query , style: TextStyle(fontWeight: FontWeight.bold , fontSize: 28
+                        Text(widget.Query , style: const TextStyle(fontWeight: FontWeight.bold , fontSize: 28
                         ),),
                       ],
                     ),
                   ),
 
-                     isLoading? Center(child: Container(child: CircularProgressIndicator())):
+                     isLoading? Center(child: Container(child: const CircularProgressIndicator())):
                   ListView.builder(
-                      physics: NeverScrollableScrollPhysics(),
+                      physics: const NeverScrollableScrollPhysics(),
                       shrinkWrap: true,
                       itemCount: newsModelList.length,
                       itemBuilder: (context, index) {
                         return Container(
                          
-                          margin: EdgeInsets.symmetric(horizontal: 10, vertical: 5),
+                          margin: const EdgeInsets.symmetric(horizontal: 10, vertical: 5),
                           child: Card(
                             
                               shape: RoundedRectangleBorder(
@@ -122,19 +124,19 @@ class _CategoryState extends State<Categoryy> {
                                             end: Alignment.bottomCenter
                                           )
                                         ),
-                                        padding: EdgeInsets.fromLTRB(15, 15, 10, 8),
+                                        padding: const EdgeInsets.fromLTRB(15, 15, 10, 8),
                                           child: Column(
                                             crossAxisAlignment: CrossAxisAlignment.start,
                                             children: [
                                               Text(
                                                 newsModelList[index].newsHead,
                                                 
-                                                style: TextStyle(
+                                                style: const TextStyle(
                                                     color: Colors.white,
                                                     fontSize: 18,
                                                     fontWeight: FontWeight.bold),
                                               ),
-                                              Text(newsModelList[index].newsDes.length >50 ? "${newsModelList[index].newsDes.substring(0,50)}..." : newsModelList[index].newsDes ,  style: TextStyle(color: Colors.white , fontSize: 12)
+                                              Text(newsModelList[index].newsDes.length >50 ? "${newsModelList[index].newsDes.substring(0,50)}..." : newsModelList[index].newsDes ,  style: const TextStyle(color: Colors.white , fontSize: 12)
                                                 ,)
                                             ],
                                           )))

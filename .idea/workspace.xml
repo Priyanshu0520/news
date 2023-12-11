@@ -1,36 +1,153 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="main.dart" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lib/main.dart">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
   </component>
-  <component name="ToolWindowManager">
-    <editor active="true" />
-    <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-    </layout>
+  <component name="ChangeListManager">
+    <list default="true" id="5eb86e43-e42c-4f7a-96f6-bd95b70589e2" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/assets/debug/mergeDebugAssets/flutter_assets/NOTICES.Z" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/assets/debug/mergeDebugAssets/flutter_assets/NOTICES.Z" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/assets/debug/mergeDebugAssets/flutter_assets/isolate_snapshot_data" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/assets/debug/mergeDebugAssets/flutter_assets/isolate_snapshot_data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/assets/debug/mergeDebugAssets/flutter_assets/kernel_blob.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/assets/debug/mergeDebugAssets/flutter_assets/kernel_blob.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/assets/debug/mergeDebugAssets/flutter_assets/shaders/ink_sparkle.frag" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/assets/debug/mergeDebugAssets/flutter_assets/shaders/ink_sparkle.frag" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/assets/debug/mergeDebugAssets/flutter_assets/vm_snapshot_data" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/assets/debug/mergeDebugAssets/flutter_assets/vm_snapshot_data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/compressed_assets/debug/out/assets/flutter_assets/NOTICES.Z.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/compressed_assets/debug/out/assets/flutter_assets/NOTICES.Z.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/compressed_assets/debug/out/assets/flutter_assets/isolate_snapshot_data.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/compressed_assets/debug/out/assets/flutter_assets/isolate_snapshot_data.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/compressed_assets/debug/out/assets/flutter_assets/kernel_blob.bin.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/compressed_assets/debug/out/assets/flutter_assets/kernel_blob.bin.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/compressed_assets/debug/out/assets/flutter_assets/shaders/ink_sparkle.frag.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/compressed_assets/debug/out/assets/flutter_assets/shaders/ink_sparkle.frag.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/compressed_assets/debug/out/assets/flutter_assets/vm_snapshot_data.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/compressed_assets/debug/out/assets/flutter_assets/vm_snapshot_data.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/desugar_graph/debug/out/currentProject/dirs_bucket_3/graph.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/desugar_graph/debug/out/currentProject/dirs_bucket_3/graph.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/external_libs_dex/debug/mergeExtDexDebug/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/external_libs_dex/debug/mergeExtDexDebug/classes.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/flutter/debug/.last_build_id" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/flutter/debug/.last_build_id" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/flutter/debug/flutter_assets/NOTICES.Z" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/flutter/debug/flutter_assets/NOTICES.Z" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/flutter/debug/flutter_assets/isolate_snapshot_data" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/flutter/debug/flutter_assets/isolate_snapshot_data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/flutter/debug/flutter_assets/kernel_blob.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/flutter/debug/flutter_assets/kernel_blob.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/flutter/debug/flutter_assets/shaders/ink_sparkle.frag" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/flutter/debug/flutter_assets/shaders/ink_sparkle.frag" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/flutter/debug/flutter_assets/vm_snapshot_data" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/flutter/debug/flutter_assets/vm_snapshot_data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/flutter/debug/flutter_build.d" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/flutter/debug/flutter_build.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/merge-state" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/merge-state" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/packageDebug/tmp/debug/zip-cache/androidResources" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/packageDebug/tmp/debug/zip-cache/androidResources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/merged_native_libs/debug/out/lib/arm64-v8a/libflutter.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/merged_native_libs/debug/out/lib/x86/libflutter.so" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/merged_native_libs/debug/out/lib/x86/libflutter.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/merged_native_libs/debug/out/lib/x86_64/libflutter.so" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/merged_native_libs/debug/out/lib/x86_64/libflutter.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/processed_res/debug/out/resources-debug.ap_" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/processed_res/debug/out/resources-debug.ap_" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/stripped_native_libs/debug/out/lib/arm64-v8a/libflutter.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/stripped_native_libs/debug/out/lib/x86/libflutter.so" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/stripped_native_libs/debug/out/lib/x86/libflutter.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/stripped_native_libs/debug/out/lib/x86_64/libflutter.so" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/stripped_native_libs/debug/out/lib/x86_64/libflutter.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/kotlin/compileDebugKotlin/cacheable/last-build.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/kotlin/compileDebugKotlin/cacheable/last-build.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/kotlin/compileDebugKotlin/local-state/build-history.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/kotlin/compileDebugKotlin/local-state/build-history.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/outputs/apk/debug/app-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/outputs/apk/debug/app-debug.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/outputs/flutter-apk/app-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/outputs/flutter-apk/app-debug.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/outputs/flutter-apk/app-debug.apk.sha1" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/outputs/flutter-apk/app-debug.apk.sha1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/tmp/compileDebugJavaWithJavac/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/tmp/compileDebugJavaWithJavac/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/flutter_inappwebview/tmp/compileDebugJavaWithJavac/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/flutter_inappwebview/tmp/compileDebugJavaWithJavac/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/webview_flutter_android/intermediates/aar_main_jar/debug/classes.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/webview_flutter_android/intermediates/aar_main_jar/debug/classes.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/webview_flutter_android/intermediates/compile_library_classes_jar/debug/classes.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/webview_flutter_android/intermediates/compile_library_classes_jar/debug/classes.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/webview_flutter_android/intermediates/javac/debug/classes/io/flutter/plugins/webviewflutter/CookieManagerHostApiImpl$CookieManagerProxy.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/webview_flutter_android/intermediates/javac/debug/classes/io/flutter/plugins/webviewflutter/CookieManagerHostApiImpl$CookieManagerProxy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/webview_flutter_android/intermediates/javac/debug/classes/io/flutter/plugins/webviewflutter/CookieManagerHostApiImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/webview_flutter_android/intermediates/javac/debug/classes/io/flutter/plugins/webviewflutter/CookieManagerHostApiImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/webview_flutter_android/intermediates/javac/debug/classes/io/flutter/plugins/webviewflutter/FileChooserParamsFlutterApiImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/webview_flutter_android/intermediates/javac/debug/classes/io/flutter/plugins/webviewflutter/FileChooserParamsFlutterApiImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/webview_flutter_android/intermediates/javac/debug/classes/io/flutter/plugins/webviewflutter/FlutterWebViewFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/webview_flutter_android/intermediates/javac/debug/classes/io/flutter/plugins/webviewflutter/GeneratedAndroidWebView$CookieManagerHostApi$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/webview_flutter_android/intermediates/javac/debug/classes/io/flutter/plugins/webviewflutter/GeneratedAndroidWebView$CookieManagerHostApi$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/webview_flutter_android/intermediates/javac/debug/classes/io/flutter/plugins/webviewflutter/GeneratedAndroidWebView$CookieManagerHostApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/webview_flutter_android/intermediates/javac/debug/classes/io/flutter/plugins/webviewflutter/GeneratedAndroidWebView$CookieManagerHostApi.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/webview_flutter_android/intermediates/javac/debug/classes/io/flutter/plugins/webviewflutter/GeneratedAndroidWebView$DownloadListenerFlutterApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/webview_flutter_android/intermediates/javac/debug/classes/io/flutter/plugins/webviewflutter/GeneratedAndroidWebView$DownloadListenerFlutterApi.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/webview_flutter_android/intermediates/javac/debug/classes/io/flutter/plugins/webviewflutter/GeneratedAndroidWebView$DownloadListenerHostApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/webview_flutter_android/intermediates/javac/debug/classes/io/flutter/plugins/webviewflutter/GeneratedAndroidWebView$DownloadListenerHostApi.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/webview_flutter_android/intermediates/javac/debug/classes/io/flutter/plugins/webviewflutter/GeneratedAndroidWebView$FileChooserModeEnumData$Builder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/webview_flutter_android/intermediates/javac/debug/classes/io/flutter/plugins/webviewflutter/GeneratedAndroidWebView$FileChooserModeEnumData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/webview_flutter_android/intermediates/javac/debug/classes/io/flutter/plugins/webviewflutter/GeneratedAndroidWebView$FileChooserParamsFlutterApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/webview_flutter_android/intermediates/javac/debug/classes/io/flutter/plugins/webviewflutter/GeneratedAndroidWebView$FileChooserParamsFlutterApi.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/webview_flutter_android/intermediates/javac/debug/classes/io/flutter/plugins/webviewflutter/GeneratedAndroidWebView$FileChooserParamsFlutterApiCodec.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/webview_flutter_android/intermediates/javac/debug/classes/io/flutter/plugins/webviewflutter/GeneratedAndroidWebView$FlutterAssetManagerHostApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/webview_flutter_android/intermediates/javac/debug/classes/io/flutter/plugins/webviewflutter/GeneratedAndroidWebView$FlutterAssetManagerHostApi.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/webview_flutter_android/intermediates/javac/debug/classes/io/flutter/plugins/webviewflutter/GeneratedAndroidWebView$GeolocationPermissionsCallbackFlutterApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/webview_flutter_android/intermediates/javac/debug/classes/io/flutter/plugins/webviewflutter/GeneratedAndroidWebView$GeolocationPermissionsCallbackFlutterApi.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/webview_flutter_android/intermediates/javac/debug/classes/io/flutter/plugins/webviewflutter/GeneratedAndroidWebView$GeolocationPermissionsCallbackHostApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/webview_flutter_android/intermediates/javac/debug/classes/io/flutter/plugins/webviewflutter/GeneratedAndroidWebView$GeolocationPermissionsCallbackHostApi.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/webview_flutter_android/intermediates/javac/debug/classes/io/flutter/plugins/webviewflutter/GeneratedAndroidWebView$InstanceManagerHostApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/webview_flutter_android/intermediates/javac/debug/classes/io/flutter/plugins/webviewflutter/GeneratedAndroidWebView$InstanceManagerHostApi.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/webview_flutter_android/intermediates/javac/debug/classes/io/flutter/plugins/webviewflutter/GeneratedAndroidWebView$JavaObjectFlutterApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/webview_flutter_android/intermediates/javac/debug/classes/io/flutter/plugins/webviewflutter/GeneratedAndroidWebView$JavaObjectFlutterApi.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/webview_flutter_android/intermediates/javac/debug/classes/io/flutter/plugins/webviewflutter/GeneratedAndroidWebView$JavaObjectHostApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/webview_flutter_android/intermediates/javac/debug/classes/io/flutter/plugins/webviewflutter/GeneratedAndroidWebView$JavaObjectHostApi.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/webview_flutter_android/intermediates/javac/debug/classes/io/flutter/plugins/webviewflutter/GeneratedAndroidWebView$JavaScriptChannelFlutterApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/webview_flutter_android/intermediates/javac/debug/classes/io/flutter/plugins/webviewflutter/GeneratedAndroidWebView$JavaScriptChannelFlutterApi.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/webview_flutter_android/intermediates/javac/debug/classes/io/flutter/plugins/webviewflutter/GeneratedAndroidWebView$JavaScriptChannelHostApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/webview_flutter_android/intermediates/javac/debug/classes/io/flutter/plugins/webviewflutter/GeneratedAndroidWebView$JavaScriptChannelHostApi.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/webview_flutter_android/intermediates/javac/debug/classes/io/flutter/plugins/webviewflutter/GeneratedAndroidWebView$PermissionRequestFlutterApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/webview_flutter_android/intermediates/javac/debug/classes/io/flutter/plugins/webviewflutter/GeneratedAndroidWebView$PermissionRequestFlutterApi.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/webview_flutter_android/intermediates/javac/debug/classes/io/flutter/plugins/webviewflutter/GeneratedAndroidWebView$PermissionRequestHostApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/webview_flutter_android/intermediates/javac/debug/classes/io/flutter/plugins/webviewflutter/GeneratedAndroidWebView$PermissionRequestHostApi.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/webview_flutter_android/intermediates/javac/debug/classes/io/flutter/plugins/webviewflutter/GeneratedAndroidWebView$WebChromeClientFlutterApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/webview_flutter_android/intermediates/javac/debug/classes/io/flutter/plugins/webviewflutter/GeneratedAndroidWebView$WebChromeClientFlutterApi.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/webview_flutter_android/intermediates/javac/debug/classes/io/flutter/plugins/webviewflutter/GeneratedAndroidWebView$WebChromeClientHostApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/webview_flutter_android/intermediates/javac/debug/classes/io/flutter/plugins/webviewflutter/GeneratedAndroidWebView$WebChromeClientHostApi.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/webview_flutter_android/intermediates/javac/debug/classes/io/flutter/plugins/webviewflutter/GeneratedAndroidWebView$WebResourceErrorData$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/webview_flutter_android/intermediates/javac/debug/classes/io/flutter/plugins/webviewflutter/GeneratedAndroidWebView$WebResourceErrorData$Builder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/webview_flutter_android/intermediates/javac/debug/classes/io/flutter/plugins/webviewflutter/GeneratedAndroidWebView$WebResourceErrorData.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/webview_flutter_android/intermediates/javac/debug/classes/io/flutter/plugins/webviewflutter/GeneratedAndroidWebView$WebResourceErrorData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/webview_flutter_android/intermediates/javac/debug/classes/io/flutter/plugins/webviewflutter/GeneratedAndroidWebView$WebResourceRequestData$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/webview_flutter_android/intermediates/javac/debug/classes/io/flutter/plugins/webviewflutter/GeneratedAndroidWebView$WebResourceRequestData$Builder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/webview_flutter_android/intermediates/javac/debug/classes/io/flutter/plugins/webviewflutter/GeneratedAndroidWebView$WebResourceRequestData.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/webview_flutter_android/intermediates/javac/debug/classes/io/flutter/plugins/webviewflutter/GeneratedAndroidWebView$WebResourceRequestData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/webview_flutter_android/intermediates/javac/debug/classes/io/flutter/plugins/webviewflutter/GeneratedAndroidWebView$WebSettingsHostApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/webview_flutter_android/intermediates/javac/debug/classes/io/flutter/plugins/webviewflutter/GeneratedAndroidWebView$WebSettingsHostApi.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/webview_flutter_android/intermediates/javac/debug/classes/io/flutter/plugins/webviewflutter/GeneratedAndroidWebView$WebStorageHostApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/webview_flutter_android/intermediates/javac/debug/classes/io/flutter/plugins/webviewflutter/GeneratedAndroidWebView$WebStorageHostApi.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/webview_flutter_android/intermediates/javac/debug/classes/io/flutter/plugins/webviewflutter/GeneratedAndroidWebView$WebViewClientFlutterApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/webview_flutter_android/intermediates/javac/debug/classes/io/flutter/plugins/webviewflutter/GeneratedAndroidWebView$WebViewClientFlutterApi.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/webview_flutter_android/intermediates/javac/debug/classes/io/flutter/plugins/webviewflutter/GeneratedAndroidWebView$WebViewClientFlutterApiCodec.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/webview_flutter_android/intermediates/javac/debug/classes/io/flutter/plugins/webviewflutter/GeneratedAndroidWebView$WebViewClientFlutterApiCodec.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/webview_flutter_android/intermediates/javac/debug/classes/io/flutter/plugins/webviewflutter/GeneratedAndroidWebView$WebViewClientHostApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/webview_flutter_android/intermediates/javac/debug/classes/io/flutter/plugins/webviewflutter/GeneratedAndroidWebView$WebViewClientHostApi.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/webview_flutter_android/intermediates/javac/debug/classes/io/flutter/plugins/webviewflutter/GeneratedAndroidWebView$WebViewFlutterApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/webview_flutter_android/intermediates/javac/debug/classes/io/flutter/plugins/webviewflutter/GeneratedAndroidWebView$WebViewFlutterApi.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/webview_flutter_android/intermediates/javac/debug/classes/io/flutter/plugins/webviewflutter/GeneratedAndroidWebView$WebViewHostApi$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/webview_flutter_android/intermediates/javac/debug/classes/io/flutter/plugins/webviewflutter/GeneratedAndroidWebView$WebViewHostApi$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/webview_flutter_android/intermediates/javac/debug/classes/io/flutter/plugins/webviewflutter/GeneratedAndroidWebView$WebViewHostApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/webview_flutter_android/intermediates/javac/debug/classes/io/flutter/plugins/webviewflutter/GeneratedAndroidWebView$WebViewHostApi.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/webview_flutter_android/intermediates/javac/debug/classes/io/flutter/plugins/webviewflutter/GeneratedAndroidWebView$WebViewHostApiCodec.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/webview_flutter_android/intermediates/javac/debug/classes/io/flutter/plugins/webviewflutter/GeneratedAndroidWebView$WebViewHostApiCodec.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/webview_flutter_android/intermediates/javac/debug/classes/io/flutter/plugins/webviewflutter/GeneratedAndroidWebView$WebViewPoint$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/webview_flutter_android/intermediates/javac/debug/classes/io/flutter/plugins/webviewflutter/GeneratedAndroidWebView$WebViewPoint$Builder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/webview_flutter_android/intermediates/javac/debug/classes/io/flutter/plugins/webviewflutter/GeneratedAndroidWebView$WebViewPoint.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/webview_flutter_android/intermediates/javac/debug/classes/io/flutter/plugins/webviewflutter/GeneratedAndroidWebView$WebViewPoint.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/webview_flutter_android/intermediates/javac/debug/classes/io/flutter/plugins/webviewflutter/GeneratedAndroidWebView.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/webview_flutter_android/intermediates/javac/debug/classes/io/flutter/plugins/webviewflutter/GeneratedAndroidWebView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/webview_flutter_android/intermediates/javac/debug/classes/io/flutter/plugins/webviewflutter/WebChromeClientFlutterApiImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/webview_flutter_android/intermediates/javac/debug/classes/io/flutter/plugins/webviewflutter/WebChromeClientFlutterApiImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/webview_flutter_android/intermediates/javac/debug/classes/io/flutter/plugins/webviewflutter/WebChromeClientHostApiImpl$SecureWebChromeClient$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/webview_flutter_android/intermediates/javac/debug/classes/io/flutter/plugins/webviewflutter/WebChromeClientHostApiImpl$SecureWebChromeClient$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/webview_flutter_android/intermediates/javac/debug/classes/io/flutter/plugins/webviewflutter/WebChromeClientHostApiImpl$SecureWebChromeClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/webview_flutter_android/intermediates/javac/debug/classes/io/flutter/plugins/webviewflutter/WebChromeClientHostApiImpl$SecureWebChromeClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/webview_flutter_android/intermediates/javac/debug/classes/io/flutter/plugins/webviewflutter/WebChromeClientHostApiImpl$WebChromeClientCreator.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/webview_flutter_android/intermediates/javac/debug/classes/io/flutter/plugins/webviewflutter/WebChromeClientHostApiImpl$WebChromeClientCreator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/webview_flutter_android/intermediates/javac/debug/classes/io/flutter/plugins/webviewflutter/WebChromeClientHostApiImpl$WebChromeClientImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/webview_flutter_android/intermediates/javac/debug/classes/io/flutter/plugins/webviewflutter/WebChromeClientHostApiImpl$WebChromeClientImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/webview_flutter_android/intermediates/javac/debug/classes/io/flutter/plugins/webviewflutter/WebChromeClientHostApiImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/webview_flutter_android/intermediates/javac/debug/classes/io/flutter/plugins/webviewflutter/WebChromeClientHostApiImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/webview_flutter_android/intermediates/javac/debug/classes/io/flutter/plugins/webviewflutter/WebSettingsHostApiImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/webview_flutter_android/intermediates/javac/debug/classes/io/flutter/plugins/webviewflutter/WebSettingsHostApiImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/webview_flutter_android/intermediates/javac/debug/classes/io/flutter/plugins/webviewflutter/WebViewFlutterPlugin.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/webview_flutter_android/intermediates/javac/debug/classes/io/flutter/plugins/webviewflutter/WebViewFlutterPlugin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/webview_flutter_android/intermediates/javac/debug/classes/io/flutter/plugins/webviewflutter/WebViewHostApiImpl$WebViewPlatformView.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/webview_flutter_android/intermediates/javac/debug/classes/io/flutter/plugins/webviewflutter/WebViewHostApiImpl$WebViewPlatformView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/webview_flutter_android/intermediates/javac/debug/classes/io/flutter/plugins/webviewflutter/WebViewHostApiImpl$WebViewProxy.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/webview_flutter_android/intermediates/javac/debug/classes/io/flutter/plugins/webviewflutter/WebViewHostApiImpl$WebViewProxy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/webview_flutter_android/intermediates/javac/debug/classes/io/flutter/plugins/webviewflutter/WebViewHostApiImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/webview_flutter_android/intermediates/javac/debug/classes/io/flutter/plugins/webviewflutter/WebViewHostApiImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/webview_flutter_android/intermediates/runtime_library_classes_jar/debug/classes.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/webview_flutter_android/intermediates/runtime_library_classes_jar/debug/classes.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/webview_flutter_android/outputs/aar/webview_flutter_android-debug.aar" beforeDir="false" afterPath="$PROJECT_DIR$/build/webview_flutter_android/outputs/aar/webview_flutter_android-debug.aar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/webview_flutter_android/tmp/compileDebugJavaWithJavac/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/webview_flutter_android/tmp/compileDebugJavaWithJavac/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/pages/home/home.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/pages/home/home.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/pages/news category/category.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/pages/news category/category.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news.iml" beforeDir="false" afterPath="$PROJECT_DIR$/news.iml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2ZPQiX12kJYw0hkKcaeiMO80yQN" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-    </navigator>
+    <navigator currentView="ProjectPane" proportions="" version="1" />
     <panes>
       <pane id="ProjectPane">
         <option name="show-excluded-files" value="false" />
       </pane>
     </panes>
   </component>
-  <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="dart.analysis.tool.window.force.activate" value="true" />
-    <property name="show.migrate.to.gradle.popup" value="false" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "cidr.known.project.marker": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "last_opened_file_path": "A:/flutter projects/news_app/news",
+    "show.migrate.to.gradle.popup": "false"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5eb86e43-e42c-4f7a-96f6-bd95b70589e2" name="Changes" comment="" />
+      <created>1702321364264</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1702321364264</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+    </layout>
   </component>
 </project>
