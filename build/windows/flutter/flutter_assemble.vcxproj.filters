@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="A:\flutter projects\news_app\news\build\windows\CMakeFiles\20b01798040bfc8b6cae5616347a1561\flutter_windows.dll.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="A:\flutter projects\news_app\news\build\windows\CMakeFiles\0f34705981feefdb53a5f3c348826639\flutter_assemble.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="A:\flutter projects\news_app\news\windows\flutter\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="A:\flutter projects\news_app\news\build\windows\flutter\CMakeFiles\flutter_assemble" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{9D61F922-6C08-351A-BFC6-655D70713FD7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

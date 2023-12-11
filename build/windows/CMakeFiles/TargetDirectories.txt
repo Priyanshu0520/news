@@ -1,0 +1,10 @@
+A:/flutter projects/news_app/news/build/windows/CMakeFiles/INSTALL.dir
+A:/flutter projects/news_app/news/build/windows/CMakeFiles/ALL_BUILD.dir
+A:/flutter projects/news_app/news/build/windows/CMakeFiles/ZERO_CHECK.dir
+A:/flutter projects/news_app/news/build/windows/flutter/CMakeFiles/flutter_wrapper_plugin.dir
+A:/flutter projects/news_app/news/build/windows/flutter/CMakeFiles/flutter_wrapper_app.dir
+A:/flutter projects/news_app/news/build/windows/flutter/CMakeFiles/flutter_assemble.dir
+A:/flutter projects/news_app/news/build/windows/flutter/CMakeFiles/INSTALL.dir
+A:/flutter projects/news_app/news/build/windows/runner/CMakeFiles/news.dir
+A:/flutter projects/news_app/news/build/windows/runner/CMakeFiles/INSTALL.dir
+A:/flutter projects/news_app/news/build/windows/runner/CMakeFiles/ALL_BUILD.dir

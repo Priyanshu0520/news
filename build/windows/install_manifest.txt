@@ -1,0 +1,14 @@
+A:/flutter projects/news_app/news/build/windows/runner/Debug/data/icudtl.dat
+A:/flutter projects/news_app/news/build/windows/runner/Debug/flutter_windows.dll
+A:/flutter projects/news_app/news/build/windows/runner/Debug/data/flutter_assets/AssetManifest.bin
+A:/flutter projects/news_app/news/build/windows/runner/Debug/data/flutter_assets/AssetManifest.json
+A:/flutter projects/news_app/news/build/windows/runner/Debug/data/flutter_assets/FontManifest.json
+A:/flutter projects/news_app/news/build/windows/runner/Debug/data/flutter_assets/fonts/MaterialIcons-Regular.otf
+A:/flutter projects/news_app/news/build/windows/runner/Debug/data/flutter_assets/kernel_blob.bin
+A:/flutter projects/news_app/news/build/windows/runner/Debug/data/flutter_assets/lib/assets/taazalogo.png
+A:/flutter projects/news_app/news/build/windows/runner/Debug/data/flutter_assets/NOTICES
+A:/flutter projects/news_app/news/build/windows/runner/Debug/data/flutter_assets/NOTICES.Z
+A:/flutter projects/news_app/news/build/windows/runner/Debug/data/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf
+A:/flutter projects/news_app/news/build/windows/runner/Debug/data/flutter_assets/packages/flutter_inappwebview/assets/t_rex_runner/t-rex.css
+A:/flutter projects/news_app/news/build/windows/runner/Debug/data/flutter_assets/packages/flutter_inappwebview/assets/t_rex_runner/t-rex.html
+A:/flutter projects/news_app/news/build/windows/runner/Debug/data/flutter_assets/shaders/ink_sparkle.frag

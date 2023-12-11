@@ -1,0 +1,28 @@
+^A:\FLUTTER PROJECTS\NEWS_APP\NEWS\BUILD\WINDOWS\CMAKEFILES\20B01798040BFC8B6CAE5616347A1561\FLUTTER_WINDOWS.DLL.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=C:\src\flutter "PROJECT_DIR=A:\flutter projects\news_app\news" FLUTTER_ROOT=C:\src\flutter "FLUTTER_EPHEMERAL_DIR=A:\flutter projects\news_app\news\windows\flutter\ephemeral" "PROJECT_DIR=A:\flutter projects\news_app\news" "FLUTTER_TARGET=A:\flutter projects\news_app\news\lib\main.dart" DART_DEFINES=RkxVVFRFUl9XRUJfQVVUT19ERVRFQ1Q9dHJ1ZQ==,RkxVVFRFUl9XRUJfQ0FOVkFTS0lUX1VSTD1odHRwczovL3d3dy5nc3RhdGljLmNvbS9mbHV0dGVyLWNhbnZhc2tpdC9jZGJlZGE3ODhhMjkzZmEyOTY2NWRjM2ZhM2Q2ZTYzYmQyMjFjYjBkLw== DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false "PACKAGE_CONFIG=A:\flutter projects\news_app\news\.dart_tool\package_config.json" C:/src/flutter/packages/flutter_tools/bin/tool_backend.bat windows-x64 Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^A:\FLUTTER PROJECTS\NEWS_APP\NEWS\BUILD\WINDOWS\CMAKEFILES\0F34705981FEEFDB53A5F3C348826639\FLUTTER_ASSEMBLE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^A:\FLUTTER PROJECTS\NEWS_APP\NEWS\WINDOWS\FLUTTER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SA:/flutter projects/news_app/news/windows" "-BA:/flutter projects/news_app/news/build/windows" --check-stamp-file "A:/flutter projects/news_app/news/build/windows/flutter/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
