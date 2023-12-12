@@ -63,7 +63,7 @@ class _SplashScreenState extends State<SplashScreen> {
           height: 350 , width: 350,),
 
           Spacer(),
-          Text("Developed By\nNisha" ,textAlign: TextAlign.center ,style: TextStyle(fontSize: 12 , fontWeight: FontWeight.bold),),
+          Text("Developed By\nPriyanshu" ,textAlign: TextAlign.center ,style: TextStyle(fontSize: 12 , fontWeight: FontWeight.bold),),
           SizedBox(height: 20,),
         ],
       )),
