@@ -6,8 +6,8 @@
 // @dart = 2.19
 
 import 'dart:io'; // flutter_ignore: dart_io_import.
-import 'package:webview_flutter_android/webview_flutter_android.dart';
-import 'package:webview_flutter_wkwebview/webview_flutter_wkwebview.dart';
+import 'package:webview_flutter_android/webview_flutter_android.dart' as webview_flutter_android;
+import 'package:webview_flutter_wkwebview/webview_flutter_wkwebview.dart' as webview_flutter_wkwebview;
 
 @pragma('vm:entry-point')
 class _PluginRegistrant {
@@ -16,7 +16,7 @@ class _PluginRegistrant {
   static void register() {
     if (Platform.isAndroid) {
       try {
-        AndroidWebViewPlatform.registerWith();
+        webview_flutter_android.AndroidWebViewPlatform.registerWith();
       } catch (err) {
         print(
           '`webview_flutter_android` threw an error: $err. '
@@ -26,7 +26,7 @@ class _PluginRegistrant {
 
     } else if (Platform.isIOS) {
       try {
-        WebKitWebViewPlatform.registerWith();
+        webview_flutter_wkwebview.WebKitWebViewPlatform.registerWith();
       } catch (err) {
         print(
           '`webview_flutter_wkwebview` threw an error: $err. '
