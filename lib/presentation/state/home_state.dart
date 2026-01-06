@@ -67,7 +67,6 @@ class HomeState extends ChangeNotifier {
         notifyListeners();
       },
       (articles) {
-        // Filter out articles without images
         final articlesWithImages = articles
             .where((article) => article.imageUrl.isNotEmpty)
             .take(10)

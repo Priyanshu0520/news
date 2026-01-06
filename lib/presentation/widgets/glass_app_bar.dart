@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'dart:ui';
 
-class GlassAppBar extends StatelessWidget {
+class HomeAppBar extends StatelessWidget {
   final bool isScrolled;
   final VoidCallback? onProfileTap;
 
-  const GlassAppBar({
+  const HomeAppBar({
     Key? key,
     required this.isScrolled,
     this.onProfileTap,
@@ -21,6 +21,7 @@ class GlassAppBar extends StatelessWidget {
       child: BackdropFilter(
         filter: ImageFilter.blur(sigmaX: 10, sigmaY: 10),
         child: Container(
+          padding: EdgeInsets.all(2),
           decoration: BoxDecoration(
             gradient: LinearGradient(
               begin: Alignment.topLeft,

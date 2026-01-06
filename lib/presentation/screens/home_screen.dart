@@ -107,13 +107,13 @@ class _HomeScreenState extends State<HomeScreen>
 
   Widget _buildAppBar() {
     return SliverAppBar(
-      expandedHeight: 140,
-      collapsedHeight: 56,
+      expandedHeight: 120,
+      collapsedHeight: 60,
       floating: false,
       pinned: true,
       elevation: 0,
       backgroundColor: Colors.transparent,
-      flexibleSpace: GlassAppBar(
+      flexibleSpace: HomeAppBar(
         isScrolled: _isScrolled,
         onProfileTap: () {},
       ),
@@ -136,7 +136,6 @@ class _HomeScreenState extends State<HomeScreen>
             return Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                const SizedBox(height: 24),
                 _buildSearchBar(),
                 const SizedBox(height: 20),
                 _buildCategories(),
